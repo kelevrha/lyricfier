@@ -56,3 +56,20 @@ Bug fixes and lot of improvements [@mrkmndz](https://github.com/mrkmndz)
 UI/Design: [@silvestreh](https://github.com/silvestreh) 
 
 #### License [CC0 (Public Domain)](LICENSE.md)
+
+## Sitio web simple para personalizar fotos
+
+Se agregó una mini web en `web/` donde puedes:
+
+- subir una foto,
+- poner un nombre,
+- generar la imagen con el texto `"<nombre> es una verga!"`,
+- descargarla y obtener una URL compartible con el nombre en query param.
+
+Para levantarla:
+
+```bash
+node web/server.js
+```
+
+Luego abre `http://localhost:4173`.
